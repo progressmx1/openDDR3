@@ -1,0 +1,52 @@
+# ---- Vivado generated output (rebuilt on every run) ----
+*.cache/
+*.runs/
+*.gen/
+*.hw/
+*.sim/
+*.ip_user_files/
+.Xil/
+NA/
+
+# ---- Vivado logs and journals ----
+*.jou
+*.log
+*.str
+vivado*.backup.*
+vivado_pid*.zip
+webtalk*
+usage_statistics_webtalk.*
+
+# ---- Build products (rebuildable from source) ----
+*.bit
+*.bin
+*.ltx
+*.dcp
+*.wdb
+*.pb
+*.rpt
+
+# ---- Simulation scratch ----
+xsim.dir/
+*.wcfg.bak
+*.vcd
+*.fst
+
+# ---- LiteX / Python ----
+build/
+__pycache__/
+*.pyc
+.venv/
+
+# ---- KiCad backups (for the PCB tracks) ----
+*-backups/
+*.kicad_prl
+fp-info-cache
+_autosave-*
+
+# ---- Editor / OS ----
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
